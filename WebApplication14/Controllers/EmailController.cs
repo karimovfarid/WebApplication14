@@ -25,7 +25,7 @@ namespace WebApplication14.Controllers
                    var senderemail = new MailAddress("kerimovferid98@gmail.com", "GulfTourism");
                     var receiveremail = new MailAddress(receiverEmail, "Guest");
 
-                    var password = "ferid2013F";
+                    var password = "";
                     var sub = subject;
                     var body = message;
                     var smtp = new SmtpClient
